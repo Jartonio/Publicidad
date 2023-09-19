@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".PermisosGPS">
+
+    <Button
+        android:id="@+id/btnCloseSecondActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="-169dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="265dp"
+        android:text="Cerrar Segunda Pantalla" />
+
+    <LinearLayout
+        android:id="@+id/interno"
+        android:layout_width="249dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="75dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="TextView" />
+    </LinearLayout>
+
+</RelativeLayout>
