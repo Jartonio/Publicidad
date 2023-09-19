@@ -12,17 +12,33 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Abrir Segunda Pantalla"
-        android:layout_centerInParent="true"
-        />
+        android:layout_centerInParent="true"/>
+    <LinearLayout
+        android:id="@+id/interno"
+        android:layout_width="249dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="75dp"
+        android:orientation="vertical"
+        android:background="@drawable/border_radius">
+        >
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/btnOpenSecondActivity"
-        android:layout_alignParentStart="false"
-        android:layout_alignParentEnd="false"
-        android:layout_alignParentBottom="false"
-        android:text="fghfghg ghjghjghjghjghjggfhjghjh jgj gj gjgjgj ghjhgj ghhghjjfghjgjgjghjg" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="TextView" />
 
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="TextView" />
+    </LinearLayout>
 </RelativeLayout>

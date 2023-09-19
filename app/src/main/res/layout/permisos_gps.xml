@@ -7,7 +7,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
     tools:context=".PermisosGPS">
 
     <Button
@@ -23,31 +22,11 @@
         android:layout_marginBottom="265dp"
         android:text="Cerrar Segunda Pantalla" />
 
-    <LinearLayout
-        android:id="@+id/interno"
-        android:layout_width="249dp"
-        android:layout_height="94dp"
-        android:layout_marginStart="75dp"
-        android:layout_marginTop="75dp"
-        android:layout_marginEnd="75dp"
-        android:layout_marginBottom="75dp"
-        android:orientation="vertical">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="TextView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="TextView" />
-    </LinearLayout>
 
 </RelativeLayout>

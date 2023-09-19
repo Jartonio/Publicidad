@@ -21,15 +21,7 @@ public class PermisosGPS extends AppCompatActivity {
             }
         });
 
-        LinearLayout linearLayout = findViewById(R.id.interno);
-        linearLayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Aquí puedes agregar el código que deseas ejecutar cuando se hace clic en el LinearLayout.
-                // Por ejemplo, puedes iniciar una nueva actividad o mostrar un mensaje.
-                Toast.makeText(getApplicationContext(), "¡Haz hecho clic en el LinearLayout!", Toast.LENGTH_SHORT).show();
-            }
-        });
+
 
     }
 }
